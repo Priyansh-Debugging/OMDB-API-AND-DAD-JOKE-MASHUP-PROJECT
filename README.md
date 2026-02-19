@@ -8,10 +8,27 @@ create a fun readup message for the user.
 - API documentaion reading
 
 # ABOUT✏️
-In this project we take demo twitter data which contains data like tweet, retweets, no. of replies etc.  
-After that we take each tweet and and run the python code to check how many positive/negative words are  
-in that tweet. Then we need to give a Net_ Score(how postive or negative the tweet is). The next step is  
-simple we take the data created in a new csv file called resulting_data.csv and create a scatter plot.
+In this project we take data from two API's.  
+One is popular API [OMDB](https://www.omdbapi.com) which has detailed data about popular movies.  
+Another is [icanhazdadzokes](https://icanhazdadjoke.com) created by Dr. Chuck. This has vast amount  
+of data regarding dad jokes.
+
+# OMDB API 📽️
+Following are the set of data available on this API about many famous movies:-  
+- Movie PLOT description
+- Lastest poster of movies
+- Ratings from different sources like:
+- Rotten Tomatoes Score
+- IMDB Score
+- and much more...
+
+# ICANHAZDADJOKES 🤣
+Following are the data available:-
+- Many dad jokes.
+- Option to search jokes with specific words.
+- and much more...
+
+# 
 
 # WORKING📈
 - We create two functions get_pos and get_neg to get no. of positive/negative words respectively.
