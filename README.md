@@ -1,2 +1,22 @@
-# OMDB-API-AND-DAD-JOKE-MASHUP-PROJECT
-COURSERA ASSIGMENT
+# OMDB API AND icanhazdadjokes API 🧠
+Coursera project on mashing two different API's to  
+create a fun readup message for the user.
+
+# Skills used 🔧
+- Python
+- Functions, API's, etc.
+- API documentaion reading
+
+# ABOUT✏️
+In this project we take demo twitter data which contains data like tweet, retweets, no. of replies etc.  
+After that we take each tweet and and run the python code to check how many positive/negative words are  
+in that tweet. Then we need to give a Net_ Score(how postive or negative the tweet is). The next step is  
+simple we take the data created in a new csv file called resulting_data.csv and create a scatter plot.
+
+# WORKING📈
+- We create two functions get_pos and get_neg to get no. of positive/negative words respectively.
+- In these functions we take each word at a time and remove any punctuations in the word using a  
+  list of punctuation chracters.
+- We also then check if the word is positive or negative by matching the words in given text files
+  and returning back the result
+- At last we compose all the necceasy data into the resulting_data.csv and plot the scatter plot.
