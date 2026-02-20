@@ -28,12 +28,6 @@ Following are the data available:-
 - Option to search jokes with specific words.
 - and much more...
 
-# 
-
 # WORKING📈
-- We create two functions get_pos and get_neg to get no. of positive/negative words respectively.
-- In these functions we take each word at a time and remove any punctuations in the word using a  
-  list of punctuation chracters.
-- We also then check if the word is positive or negative by matching the words in given text files
-  and returning back the result
-- At last we compose all the necceasy data into the resulting_data.csv and plot the scatter plot.
+Here are the functions created in this code and there functionality:-  
+- **highlight** == This function takes a word and the sentence to highlight that word (For EX. ** forward **)
